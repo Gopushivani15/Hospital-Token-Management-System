@@ -1,0 +1,12 @@
+<?php
+
+$conn = new mysqli("localhost", "root", "", "hospital_token");
+
+if ($conn->connect_error)
+{
+    die("Connection Failed : " . $conn->connect_error);
+}
+
+// echo "Database Connected Successfully";
+
+?>
